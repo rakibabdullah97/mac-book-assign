@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Buy iMac pro</title>
+</head>
+
+<body>
+    <section>
+        <div class="conatainer d-flex gap-5">
+            <div class="row-3 m-3">
+                <img width="100%" src="images/mac.png" alt="">
+            </div>
+            <div class="row- m-3">
+                <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+                  <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,7-core GPU,and
+                    16-coreNetural Engine 8GB unified memory 256GB SSD storage two Thunderbolt/USB 4 ports Magic Mouse
+                    Magickeyboard US English</p>
+
+                <div class="mt-5">
+                    <h4>Memory</h4>
+                    <input id="memory-8gb" type="button" value="8GB unified memory">
+                    <input id="memory-16gb" type="button" value="16GM unified memory">
+                </div>
+                <div class="mt-5">
+                    <h4>Storage</h4>
+                    <input id="225Gb-storage" type="button" value="225GB SSD storage">
+                    <input id="512Gb-storage" type="button" value="512GB SSD storage">
+                    <input id="1TB-storage" type="button" value="1TB SSD storage">
+                </div>
+                <div class="mt-5">
+                    <h4>Choose your delivery option</h4>
+                    <input id="free-delivery" type="button" value="Friday,Aug 25 FREE Prime delivery">
+                    <input id="paid-delivery" type="button" value="Friday,Aug 21 Delivery charge $20">
+                </div>
+                <div class="cart-item mt-5">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <h5> Best Price </h5>
+                            <h5>Extra Memory Cost</h5>
+                            <h5>Extra Storage Cost</h5>
+                            <h5>Delivery Charge</h5>
+                            <h5>Total Price</h5>
+                        </div>
+
+                        <div class="col-md-4 status">
+                            <h5>$<span id="best-price">1299</span></h5>
+                            <h5>$<span id="extra-memory">0</span></h5>
+                            <h5>$<span id="extra-storage">0</span> </h5>
+                            <h5>$<span id="delivery-charge">0</span> </h5>
+                            <h5>$<span id="total-price">1299</span> </h5>
+                        </div>
+                        <div>
+                            <h5>Add Promo Code</h5>
+                            <input id="input-promo" class="pb-1" type="text" name="" id="">
+                            <button id="btn-promo" type="button" class="btn btn-danger">Apply</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr class=" w-75 m-auto">
+
+        <div class="col d-flex justify-content-center ">
+            <div>
+                <h1>Total:</h1>
+            </div>
+            <div>
+                <h1>$<span id="total-promo">000</span></h1>
+            </div>
+        </div>
+        <script src="mac.js"></script>
+    </section>
+</body>
+
+</html>
